@@ -25,8 +25,8 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
         </processorPath>
+        <module name="Loans" />
         <module name="Cards" />
-        <module name="loan" />
       </profile>
     </annotationProcessing>
   </component>
@@ -34,7 +34,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Accounts" options="-parameters" />
       <module name="Cards" options="-parameters" />
-      <module name="loan" options="-parameters" />
+      <module name="Loans" options="-parameters" />
       <module name="udemy-microservice" options="-parameters" />
     </option>
   </component>
