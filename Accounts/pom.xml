@@ -10,6 +10,7 @@
 	<groupId>uz.shaxzod</groupId>
 	<artifactId>Accounts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>Accounts</name>
 	<description>Accounts</description>
 	<properties>
@@ -50,9 +51,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
